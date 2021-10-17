@@ -37,6 +37,7 @@
 }
 .tour-card{
     position: relative;
+    cursor: pointer;
 }
 .tour-content{
     position:absolute;
@@ -65,6 +66,13 @@
 }
 .icon{
     font-size: 50px;
+}
+.img-transition{
+    transition: all 0.3s ease-in-out 0.1s;
+    cursor: pointer;
+}
+.img-transition:hover{
+    transform: scale(1.15);
 }
 footer{
     background-color: #F8F8FF;
